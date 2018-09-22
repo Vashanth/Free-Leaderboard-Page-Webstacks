@@ -2,6 +2,20 @@
 <h2>WEBSTACKS TASK 2: LEADERBOARD PAGE</h2> 
 
 **Leaderboard page done for Webstacks-SASTRA UNIVERSITY web development club. The website is done with HTML,CSS,JS and PHP**
+**What I did**
+*The creation of main users and tasks table for database
+*The creation of database. I have kept it in such a way that when a person first logs in to the website the database named 'task2'
+is created in database in xampp localhost and also the tables 'tasks' and 'user' is created.
+*Login credentials validation was done by me in login.php where the e-mail and password's validity are checked and the usage of quotes is avoided in login page using window alert JS.  
+*The creation of tasklist.php where a Admin can update new tasks with the due date and the values are entered in tasks table.
+*The Modify Points in which an Admin can enter the e-mail id and points so that corresponding user's points are increased and his rankings are changed in Leaderboard for both admin view and user view and this  is done in modify.php
+*Admin Manage tasks page where the present tasks are also displayed
+*I used PHP with MySQL for the manipulation of values with database from front end to backend
+*The usage of JS window alerts in many places to avoid confusion to website user
+*The admin list and user list displayed and is filtered by a MySQL statement which separates users and Admnis in display
+*The 3 medals for first 3 in Leaderboard and few places the front end done by me was improved by my teammate.
+
+**Website functionalities**
 * signup.php contains the Register block  and the first user is set as Administrator by default and the following registrations 
   will be Normal users
 * Access for users to admin content is blocked and if anyone tries to access the URL the access is prevented by the use of 
